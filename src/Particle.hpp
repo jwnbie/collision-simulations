@@ -31,7 +31,7 @@ public:
 
     Particle(float x, float y)
     {
-        // 🫧 SIZE BESAR
+        // SIZE 
         radius = 24.f;
 
         position = { x, y };
@@ -97,12 +97,12 @@ public:
             sf::Vector2f normal = delta / dist;
             float penetration = minDist - dist;
 
-            // 🔥 Dorong lebih kuat supaya tidak numpuk
+            // Dorong lebih kuat supaya tidak numpuk
             float correction = penetration * 0.8f;
             position -= normal * correction;
             other.position += normal * correction;
 
-            // 🔥 Tabrakan lebih kerasa
+            // Tabrakan lebih kerasa
             float impulse = 1.2f;
             sf::Vector2f relativeVelocity = velocity - other.velocity;
             float velAlongNormal = relativeVelocity.x * normal.x + relativeVelocity.y * normal.y;

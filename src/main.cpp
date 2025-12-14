@@ -28,7 +28,7 @@ int main()
 
     sf::RenderWindow window(
         sf::VideoMode({ WIDTH, HEIGHT }),
-        "Bubble Collision - Active & Fast"
+        "Bubble Collision"
     );
 
     window.setFramerateLimit(144);

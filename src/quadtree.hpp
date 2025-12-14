@@ -3,7 +3,7 @@
 
 #include <vector>
 #include <SFML/Graphics.hpp>
-#include "Particle.hpp"  // ✅ tambahkan ini, hapus forward declaration
+#include "Particle.hpp"
 
 // Struktur untuk mendefinisikan batas kotak (AABB)
 struct Boundary {
