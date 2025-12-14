@@ -1,6 +1,6 @@
 Collision Simulation: Brute Force vs Quadtree
 
-⮞ Deskripsi Proyek :Proyek ini merupakan simulasi collision detection dua dimensi menggunakan bahasa pemrograman C++ dan library SFML. Simulasi memodelkan partikel berbentuk bubble yang bergerak secara dinamis di dalam sebuah area tertutup, saling bertabrakan, serta memantul pada batas dinding. Proyek ini bertujuan untuk memvisualisasikan dan membandingkan dua pendekatan algoritma deteksi tabrakan, yaitu Brute Force dan Quadtree, dalam konteks Computer Graphics dan simulasi fisika sederhana.
+⮞ Deskripsi Proyek : Proyek ini merupakan simulasi collision detection dua dimensi menggunakan bahasa pemrograman C++ dan library SFML. Simulasi memodelkan partikel berbentuk bubble yang bergerak secara dinamis di dalam sebuah area tertutup, saling bertabrakan, serta memantul pada batas dinding. Proyek ini bertujuan untuk memvisualisasikan dan membandingkan dua pendekatan algoritma deteksi tabrakan, yaitu Brute Force dan Quadtree, dalam konteks Computer Graphics dan simulasi fisika sederhana.
 
 ⮞ Tujuan : Tujuan dari proyek ini adalah untuk mengimplementasikan sistem collision detection 2D, memahami perbedaan kompleksitas dan performa antara algoritma Brute Force dan Quadtree, serta menerapkan konsep dasar fisika seperti elastic collision dan pembatasan gerak partikel di dalam ruang simulasi. Selain itu, proyek ini juga berfokus pada pengembangan kreativitas visual dan tuning parameter fisika agar simulasi terlihat lebih realistis dan responsif.
 
