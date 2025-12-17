@@ -32,7 +32,7 @@ public:
     Particle(float x, float y)
     {
         // SIZE 
-        radius = 24.f;
+        radius = 12.f;
 
         position = { x, y };
         velocity = {

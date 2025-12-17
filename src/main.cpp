@@ -10,7 +10,7 @@
 
 constexpr int WIDTH = 800;
 constexpr int HEIGHT = 600;
-constexpr int PARTICLE_COUNT = 40;
+constexpr int PARTICLE_COUNT = 500;
 
 // === PHYSICS TUNING ===
 constexpr float FIXED_DT = 1.f / 200.f;
@@ -31,7 +31,7 @@ int main()
         "Bubble Collision"
     );
 
-    window.setFramerateLimit(144);
+    window.setFramerateLimit(1000);
 
     // ===============================
     // INIT PARTICLES
@@ -47,7 +47,7 @@ int main()
         );
 
         // ⚡ speed (lebih cepet dikit)
-        p.velocity *= 1.9f;
+        p.velocity *= 1.2f;
 
         particles.push_back(p);
     }
