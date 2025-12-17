@@ -1,4 +1,4 @@
-# 🫧 Collision Simulation: Brute Force vs Quadtree
+# 🫧 Collision Simulation : Brute Force vs Quadtree
 **2D Collision Detection using C++ & SFML**
 
 ---
@@ -35,32 +35,42 @@ Platform : Windows
 
 ## Dasar Fisika & Persamaan
 Gerak partikel dihitung menggunakan persamaan :
+```text
 x(t + Δt) = x(t) + v · Δt
+```
 
 Deteksi tabrakan antar partikel :
+```text
 |x1 - x2| ≤ r1 + r2
+```
 
 Elastic collision (massa sama):
+```text
 v1' = v1 - ((v1 - v2) · n) n  
 v2' = v2 - ((v2 - v1) · n) n  
+```
 
 Pantulan dinding :
+```text
 vx = -vx (dinding vertikal)  
 vy = -vy (dinding horizontal)  
-
+```
 ---
 
 ## Algoritma Collision Detection
+**Brute Force**
 Brute Force melakukan pengecekan tabrakan dengan membandingkan setiap pasangan partikel :
-
+```text
 for i = 0 to n-1  
 for j = i+1 to n-1  
 cek tabrakan (i, j)
+```
 
 Kompleksitas waktu : O(n²)  
 Kelebihan : sederhana dan mudah diimplementasikan  
 Kekurangan : performa menurun drastis saat jumlah partikel besar  
 
+**Quadtree**
 Quadtree menggunakan spatial partitioning dengan membagi ruang menjadi empat kuadran secara rekursif. Partikel hanya dicek dengan partikel lain di node yang sama atau berdekatan.  
 Kompleksitas waktu rata-rata : O(n log n)  
 Keunggulan : jauh lebih efisien untuk jumlah partikel besar  
