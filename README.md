@@ -122,11 +122,12 @@ Brute Force menunjukkan penurunan performa signifikan ketika jumlah partikel men
 ---
 
 ## Dokumentasi Visual
-**Brute Force**
-![Brute Force](assets/brute-force.png)
 
-**Quadtree**
+**Brute Force**  
+![Brute Force](assets/bruteforce.png)
+
+**Quadtree**  
 ![Quadtree](assets/quadtree.png)
- 
-**Screen Record**
-![Screen Record](assets/record.mp4)
+
+**Screen Record**  
+[Klik untuk melihat video](assets/record.mp4)
