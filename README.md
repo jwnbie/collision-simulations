@@ -92,7 +92,7 @@ collision-simulations/
 │   ├── Particle.h  
 │   ├── Quadtree.cpp  
 │   └── Quadtree.h  
-├── assets
+├── assets/
 │   ├── bruteforce.png 
 │   ├── quadtree.png   
 │   ├── record.mp4   
