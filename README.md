@@ -18,12 +18,12 @@ Proyek ini merupakan simulasi collision detection dua dimensi menggunakan bahasa
 ---
 
 ## Tools & Teknologi
-Bahasa : C++  
-Library : SFML 3.0.2  
-Compiler : MinGW-w64 (GCC)  
-Version Control : Git  
-Editor : Visual Studio Code
-Platform : Windows  
+- Bahasa : C++  
+- Library : SFML 3.0.2  
+- Compiler : MinGW-w64 (GCC)  
+- Version Control : Git  
+- Editor : Visual Studio Code
+- Platform : Windows  
 
 ---
 
