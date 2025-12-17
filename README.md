@@ -22,7 +22,7 @@ Bahasa : C++
 Library : SFML 3.0.2  
 Compiler : MinGW-w64 (GCC)  
 Version Control : Git  
-Editor : Visual Studio Code / Code::Blocks  
+Editor : Visual Studio Code
 Platform : Windows  
 
 ---
@@ -92,9 +92,10 @@ collision-simulations/
 │   ├── Particle.h  
 │   ├── Quadtree.cpp  
 │   └── Quadtree.h  
-├── Brute Force.png  
-├── Quadtree.png  
-├── screen record FP strukdat.mp4  
+├── assets
+│   ├── bruteforce.png 
+│   ├── quadtree.png   
+│   ├── record.mp4   
 └── README.md  
 
 ---
@@ -122,12 +123,11 @@ Brute Force menunjukkan penurunan performa signifikan ketika jumlah partikel men
 ---
 
 ## Dokumentasi Visual
-
-**Brute Force**  
+**Brute Force**
 ![Brute Force](assets/bruteforce.png)
 
-**Quadtree**  
+**Quadtree**
 ![Quadtree](assets/quadtree.png)
 
-**Screen Record**  
-[Klik untuk melihat video](assets/record.mp4)
+**Screen Record**
+[Klik untuk melihat screen record](assets/record.mp4)
