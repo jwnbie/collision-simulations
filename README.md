@@ -85,18 +85,18 @@ Bubble besar berwarna cerah, fixed timestep physics untuk stabilitas simulasi, s
 ---
 
 ## Struktur Folder
-collision-simulations/  
-├── src/  
-│   ├── main.cpp  
-│   ├── Particle.cpp  
-│   ├── Particle.h  
-│   ├── Quadtree.cpp  
-│   └── Quadtree.h  
+collision-simulations/
+├── src/
+│   ├── main.cpp
+│   ├── Particle.cpp
+│   ├── Particle.h
+│   ├── Quadtree.cpp
+│   └── Quadtree.h
 ├── assets/
-│   ├── bruteforce.png 
-│   ├── quadtree.png   
-│   ├── record.mp4   
-└── README.md  
+│   ├── bruteforce.png
+│   ├── quadtree.png
+│   └── record.mp4
+└── README.md
 
 ---
 
