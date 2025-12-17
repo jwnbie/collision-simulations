@@ -59,7 +59,7 @@ vy = -vy (dinding horizontal)
 
 ## Algoritma Collision Detection
 **Brute Force**
-Brute Force melakukan pengecekan tabrakan dengan membandingkan setiap pasangan partikel :
+melakukan pengecekan tabrakan dengan membandingkan setiap pasangan partikel :
 ```text
 for i = 0 to n-1  
 for j = i+1 to n-1  
@@ -71,7 +71,7 @@ Kelebihan : sederhana dan mudah diimplementasikan
 Kekurangan : performa menurun drastis saat jumlah partikel besar  
 
 **Quadtree**
-Quadtree menggunakan spatial partitioning dengan membagi ruang menjadi empat kuadran secara rekursif. Partikel hanya dicek dengan partikel lain di node yang sama atau berdekatan.  
+menggunakan spatial partitioning dengan membagi ruang menjadi empat kuadran secara rekursif. Partikel hanya dicek dengan partikel lain di node yang sama atau berdekatan.  
 Kompleksitas waktu rata-rata : O(n log n)  
 Keunggulan : jauh lebih efisien untuk jumlah partikel besar  
 
