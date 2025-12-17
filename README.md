@@ -85,6 +85,7 @@ Bubble besar berwarna cerah, fixed timestep physics untuk stabilitas simulasi, s
 ---
 
 ## Struktur Folder
+```text
 collision-simulations/
 ├── src/
 │   ├── main.cpp
@@ -96,8 +97,8 @@ collision-simulations/
 │   ├── bruteforce.png
 │   ├── quadtree.png
 │   └── record.mp4
-└── README.md
-
+└── README.md 
+```
 ---
 
 ## Cara Build & Run
