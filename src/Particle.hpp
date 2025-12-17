@@ -34,6 +34,9 @@ public:
         // SIZE 
         radius = 12.f;
 
+        // 🫧 SIZE BESAR
+        radius = 24.f;
+
         position = { x, y };
         velocity = {
             static_cast<float>(std::rand() % 120 - 60),
@@ -96,13 +99,10 @@ public:
         {
             sf::Vector2f normal = delta / dist;
             float penetration = minDist - dist;
-
-            // Dorong lebih kuat supaya tidak numpuk
             float correction = penetration * 0.8f;
             position -= normal * correction;
             other.position += normal * correction;
 
-            // Tabrakan lebih kerasa
             float impulse = 1.2f;
             sf::Vector2f relativeVelocity = velocity - other.velocity;
             float velAlongNormal = relativeVelocity.x * normal.x + relativeVelocity.y * normal.y;
@@ -130,5 +130,4 @@ public:
         window.draw(highlight);
     }
 };
-
 #endif

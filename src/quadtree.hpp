@@ -4,6 +4,7 @@
 #include <vector>
 #include <SFML/Graphics.hpp>
 #include "Particle.hpp"
+#include "Particle.hpp" 
 
 // Struktur untuk mendefinisikan batas kotak (AABB)
 struct Boundary {

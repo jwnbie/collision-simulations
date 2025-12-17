@@ -28,10 +28,15 @@ int main()
 
     sf::RenderWindow window(
         sf::VideoMode({ WIDTH, HEIGHT }),
+
         "Bubble Collision"
     );
 
     window.setFramerateLimit(1000);
+        "Bubble Collision - Active & Fast"
+    );
+
+    window.setFramerateLimit(144);
 
     // ===============================
     // INIT PARTICLES
@@ -45,10 +50,8 @@ int main()
             static_cast<float>(std::rand() % (WIDTH - 80) + 40),
             static_cast<float>(std::rand() % (HEIGHT - 80) + 40)
         );
-
-        // ⚡ speed (lebih cepet dikit)
         p.velocity *= 1.2f;
-
+        p.velocity *= 1.9f;
         particles.push_back(p);
     }
 
