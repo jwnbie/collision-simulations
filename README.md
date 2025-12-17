@@ -82,7 +82,7 @@ Inisialisasi window dan partikel → Update posisi partikel (fixed timestep) →
 
 ---
 
-## ⌨Switching Algoritma (Real-Time)
+## Switching Algoritma (Real-Time)
 Tekan tombol SPACE untuk mengganti mode collision detection:
 Brute Force ↔ Quadtree  
 Fitur ini memungkinkan perbandingan performa secara langsung tanpa menghentikan simulasi.
