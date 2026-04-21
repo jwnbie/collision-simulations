@@ -1,4 +1,4 @@
-# 🫧 Collision Simulation : Brute Force vs Quadtree
+# Collision Simulation : Brute Force vs Quadtree
 **2D Collision Detection using C++ & SFML**
 
 ---
